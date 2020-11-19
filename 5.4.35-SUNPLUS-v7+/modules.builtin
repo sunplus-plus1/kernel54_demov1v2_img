@@ -12,6 +12,7 @@ kernel/fs/lockd/lockd.ko
 kernel/fs/nfs/nfs.ko
 kernel/fs/nfs/nfsv2.ko
 kernel/fs/nfs/nfsv3.ko
+kernel/fs/nfs/nfsv4.ko
 kernel/fs/nfs_common/grace.ko
 kernel/fs/nls/nls_base.ko
 kernel/fs/nls/nls_cp437.ko
@@ -104,6 +105,7 @@ kernel/drivers/pwm/pwm-sunplus.ko
 kernel/drivers/scsi/scsi_mod.ko
 kernel/drivers/scsi/sd_mod.ko
 kernel/drivers/scsi/sg.ko
+kernel/drivers/spi/spidev.ko
 kernel/drivers/spi/spi-sunplus-sp7021.ko
 kernel/drivers/spi/spi-slave-system-control.ko
 kernel/drivers/staging/exfat/exfat.ko
@@ -149,6 +151,7 @@ kernel/net/netlink/netlink_diag.ko
 kernel/net/packet/af_packet.ko
 kernel/net/packet/af_packet_diag.ko
 kernel/net/sunrpc/sunrpc.ko
+kernel/net/sunrpc/auth_gss/auth_rpcgss.ko
 kernel/net/unix/unix.ko
 kernel/lib/bitrev.ko
 kernel/lib/crc-ccitt.ko
